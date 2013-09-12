@@ -31,7 +31,8 @@
                 <label class="form-label" for="doc">
                   <h4 style="margin-bottom: 0.5em">Upload test logs as a ZIP archive. </h4>
                 </label>
-                <p>When you submit the logs the test will appeared as passed. They will be further reviewed by OGC staff.</p>
+                <p>After submitting the logs the test will appeared as passed. The results will be further reviewed by the OGC staff, 
+                if you use these result to <a href="http://www.opengeospatial.org/resource/products/registration">apply for certification.</a></p>
                 <input name="doc" size="96" type="file" />
               </p>
             </fieldset>
@@ -47,7 +48,7 @@
       <xsl:variable name="zip-size" select="zip:size(zip:new($file-path))" as="xs:integer" />
       <xsl:choose>
         <xsl:when test="$zip-size > 0">
-          <ctl:message>Test logs were received. You will be notified when the review is complete.</ctl:message>
+          <ctl:message>Test logs were received. You will be notified when the review is complete, if you are applying for certification.</ctl:message>
         </xsl:when>
         <xsl:otherwise>
           <ctl:message>Test logs were not received. Please submit a non-empty ZIP archive.</ctl:message>
