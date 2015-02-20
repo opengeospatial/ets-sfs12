@@ -15,12 +15,12 @@
         Revision 1.2.1" (OGC 06-104r4). A testing guidance document is available (see OGC 98-046r2).</description>
       </suite>
       <revision>
-        <name>r4</name>
+        <name>${project.version}</name>
         <sources>
-          <source>sfs/1.2.1/ctl</source>
+          <source>sfs/${spec-version}/ctl</source>
         </sources>
-        <resources>sfs/1.2.1/resources</resources>
-        <webdir>sfs/1.2.1/web</webdir>
+        <resources>sfs/${spec-version}/resources</resources>
+        <webdir>sfs/${spec-version}/site</webdir>
       </revision>
     </version>
   </standard>

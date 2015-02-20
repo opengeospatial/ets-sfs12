@@ -25,7 +25,7 @@ archive)](http://portal.opengeospatial.org/files/?artifact_id=16317) for each
 of the above alternatives as a set of SQL scripts and as C source code.
 Implementers may select either form of test suite for adaptation and testing.
 
-Detailed information about this test suite is available [here]( http://htmlpreview.github.com/?https://github.com/opengeospatial/ets-sfs12/blob/master/src/main/web/index.html).
+Detailed information about this test suite is available [here](http://opengeospatial.github.io/ets-sfs12).
 
 ## License
 
@@ -39,21 +39,8 @@ build the test suite run maven from the root directory:
 ```
 mvn install
 ```
-     
-## Testing an Implementation
 
-For UNIX/OS Users
-
-Clone this repository:
-```     
-git clone https://github.com/opengeospatial/ets-sfs12.git
-```
-Run:
-```   
-build.sh**
-```
-
-For Windows users and to get more information about running tests in TEAM Engine, check the instructions at the [CITE wiki](http://cite.opengeospatial.org/easytesting)
+Follow the [TEAM ENGINE instructions](http://opengeospatial.github.io/teamengine/installation.html) to install and run the tests in TEAM ENGINE. 
 
 ## Bugs
 

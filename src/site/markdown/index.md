@@ -25,17 +25,6 @@ archive)](http://portal.opengeospatial.org/files/?artifact_id=16317) for each
 of the above alternatives as a set of SQL scripts and as C source code.
 Implementers may select either form of test suite for adaptation and testing.
 
-## Release notes
+## Release Notes
 
-### r3 (2013-11-06)
-
-  * Changed local name of suite to 'sfs-1.2-suite'.
-
-### r2 (2013-09-18)
-
-  * Updated submission information.
-
-### r1 (2013-07-17)
-
-  * Initial release in TEAM Engine.
-
+Release notes are available from the [relnotes.html](relnotes.html).
