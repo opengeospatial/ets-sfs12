@@ -1,5 +1,8 @@
 # Release notes for SFS 1.2.1 Conformance Test Suite
 
+## 1.5 (2015-07-30)
+- Update pom.xml to build with Maven 2 and minor edits
+
 ## 1.4 (2015-02-19)
 
 - Cleaned the structure of the test. The test scripts (ctl) have not changed.
