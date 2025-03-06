@@ -1,7 +1,11 @@
 # Release notes for SFS 1.2.1 Conformance Test Suite
 
-## 1.5 (2015-07-30)
-- Update pom.xml to build with Maven 2 and minor edits
+## 1.5 (2025-03-06)
+
+Attention: Java 17 and Tomcat 10.1 are required.
+
+- [#6](https://github.com/opengeospatial/ets-sfs12/issues/6) - Migrate test suite to TEAM Engine 6 (Java 17)
+- [#4](https://github.com/opengeospatial/ets-sfs12/issues/4) - Deployment to Central Maven Repository fails
 
 ## 1.4 (2015-02-19)
 
