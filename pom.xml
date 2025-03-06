@@ -9,7 +9,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ets-sfs12</artifactId>
-  <version>1.5</version>
+  <version>1.6-SNAPSHOT</version>
 
   <name>OGC Simple Feature Access - SQL 1.2 Test-Suite - Executable Test Suite</name>
   <description>
@@ -31,7 +31,7 @@
     <url>https://github.com/opengeospatial/ets-sfs12</url>
     <connection>scm:git:https://github.com/opengeospatial/ets-sfs12.git</connection>
     <developerConnection>scm:git:git@github.com:opengeospatial/ets-sfs12.git</developerConnection>
-    <tag>1.5</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Tracker</system>
